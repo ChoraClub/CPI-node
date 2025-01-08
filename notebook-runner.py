@@ -24,14 +24,11 @@ def run_notebook(notebook_path):
         
         ep.preprocess(nb, {'metadata': {'path': os.path.dirname(notebook_path)}})
         
-        # Save executed notebook with timestamp
-        output_path = notebook_path.replace('.ipynb', 
-            f'_executed_{start_time.strftime("%Y%m%d_%H%M%S")}.ipynb')
-        
-        with open(output_path, 'w', encoding='utf-8') as f:
+        # Overwrite the existing notebook
+        with open(notebook_path, 'w', encoding='utf-8') as f:
             nbformat.write(nb, f)
         
-        logging.info(f"Notebook execution completed. Output saved to {output_path}")
+        logging.info(f"Notebook execution completed and saved to {notebook_path}")
     
     except Exception as e:
         logging.error(f"Error executing notebook: {str(e)}")
