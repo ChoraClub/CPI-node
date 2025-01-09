@@ -61,8 +61,12 @@ def main():
     # Create executor instance
     executor = NotebookExecutor(NOTEBOOK_PATH)
     
+    # Immediately run the notebook
+    logging.info("Initial execution started.")
+    executor.run_notebook()
+    
     # Schedule the job to run every 5 minutes
-    schedule.every(2).minutes.do(executor.run_notebook)
+    schedule.every(5).minutes.do(executor.run_notebook)
     
     logging.info("Scheduler started. Notebook will execute every 5 minutes.")
     
