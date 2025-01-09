@@ -6,6 +6,19 @@ import os
 import time
 import schedule
 from pathlib import Path
+import pytz  # You'll need to install pytz to work with timezones
+
+# Configure logging to store logs in IST
+def timestamp_ist():
+    # Get current time in UTC and convert it to IST
+    utc_time = datetime.now(pytz.utc)
+    ist_time = utc_time.astimezone(pytz.timezone('Asia/Kolkata'))  # Convert to IST
+    return ist_time.strftime('%Y-%m-%d %H:%M:%S')
+
+class CustomFormatter(logging.Formatter):
+    def formatTime(self, record, datefmt=None):
+        # Override to use IST instead of UTC
+        return timestamp_ist()
 
 # Configure logging
 logging.basicConfig(
@@ -13,6 +26,10 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     filename='notebook_execution.log'
 )
+
+logger = logging.getLogger()
+for handler in logger.handlers:
+    handler.setFormatter(CustomFormatter('%(asctime)s - %(levelname)s - %(message)s'))
 
 class NotebookExecutor:
     def __init__(self, notebook_path):
