@@ -1,2 +1,117 @@
 2025-01-08 15:20:45,604 - INFO - Starting execution of ./script.ipynb
 2025-01-08 15:20:58,508 - INFO - Notebook execution completed and saved to ./script.ipynb
+2025-01-08 19:39:38,323 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-08 19:39:38,323 - INFO - Added job "run_notebook" to job store "default"
+2025-01-08 19:39:38,323 - INFO - Scheduler started
+2025-01-08 19:41:14,390 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-08 19:41:14,390 - INFO - Added job "run_notebook" to job store "default"
+2025-01-08 19:41:14,390 - INFO - Scheduler started
+2025-01-08 19:43:23,577 - INFO - Starting execution of ./script.ipynb
+2025-01-08 19:43:45,604 - INFO - Notebook execution completed. Output saved to ./script_executed_20250108_194323.ipynb
+2025-01-08 19:43:45,626 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-08 19:43:45,626 - INFO - Added job "run_notebook" to job store "default"
+2025-01-08 19:43:45,626 - INFO - Scheduler started
+2025-01-08 19:45:01,309 - INFO - Starting execution of ./script.ipynb
+2025-01-08 19:45:16,307 - INFO - Notebook execution completed. Output saved to ./script_executed_20250108_194501.ipynb
+2025-01-08 19:45:16,356 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-08 19:45:16,357 - INFO - Added job "run_notebook" to job store "default"
+2025-01-08 19:45:16,357 - INFO - Scheduler started
+2025-01-08 19:46:37,147 - INFO - Starting execution of ./script.ipynb
+2025-01-08 19:46:56,274 - INFO - Notebook execution completed. Output saved to ./script_executed_20250108_194637.ipynb
+2025-01-08 19:46:56,315 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-08 19:46:56,316 - INFO - Added job "run_notebook" to job store "default"
+2025-01-08 19:46:56,316 - INFO - Scheduler started
+2025-01-08 19:48:56,332 - INFO - Running job "run_notebook (trigger: interval[0:02:00], next run at: 2025-01-08 19:48:56 IST)" (scheduled at 2025-01-08 19:48:56.315633+05:30)
+2025-01-08 19:48:56,338 - INFO - Starting execution of ./script.ipynb
+2025-01-08 19:49:10,324 - INFO - Notebook execution completed. Output saved to ./script_executed_20250108_194856.ipynb
+2025-01-08 19:49:10,335 - INFO - Job "run_notebook (trigger: interval[0:02:00], next run at: 2025-01-08 19:50:56 IST)" executed successfully
+2025-01-08 19:50:56,318 - INFO - Running job "run_notebook (trigger: interval[0:02:00], next run at: 2025-01-08 19:52:56 IST)" (scheduled at 2025-01-08 19:50:56.315633+05:30)
+2025-01-08 19:50:56,320 - INFO - Starting execution of ./script.ipynb
+2025-01-08 19:51:09,494 - INFO - Notebook execution completed. Output saved to ./script_executed_20250108_195056.ipynb
+2025-01-08 19:51:09,501 - INFO - Job "run_notebook (trigger: interval[0:02:00], next run at: 2025-01-08 19:52:56 IST)" executed successfully
+2025-01-08 19:52:56,329 - INFO - Running job "run_notebook (trigger: interval[0:02:00], next run at: 2025-01-08 19:54:56 IST)" (scheduled at 2025-01-08 19:52:56.315633+05:30)
+2025-01-08 19:52:56,331 - INFO - Starting execution of ./script.ipynb
+2025-01-08 19:53:10,019 - INFO - Notebook execution completed. Output saved to ./script_executed_20250108_195256.ipynb
+2025-01-08 19:53:10,054 - INFO - Job "run_notebook (trigger: interval[0:02:00], next run at: 2025-01-08 19:54:56 IST)" executed successfully
+2025-01-08 19:56:22,333 - ERROR - Error executing notebook: [Errno 2] No such file or directory: '/tmp/notebook_lock_file.lock'
+2025-01-08 20:02:09,288 - INFO - Scheduler started. Notebook will execute every 5 minutes.
+2025-01-08 20:04:09,402 - INFO - Starting execution of script.ipynb
+2025-01-08 20:04:28,935 - INFO - Notebook execution completed in 0:00:19.530137
+2025-01-08 20:06:29,014 - INFO - Starting execution of script.ipynb
+2025-01-08 20:06:50,054 - INFO - Notebook execution completed in 0:00:21.036321
+2025-01-08 20:08:50,156 - INFO - Starting execution of script.ipynb
+2025-01-08 20:09:11,869 - INFO - Notebook execution completed in 0:00:21.702753
+2025-01-08 20:11:11,946 - INFO - Starting execution of script.ipynb
+2025-01-08 20:11:25,232 - INFO - Notebook execution completed in 0:00:13.282274
+2025-01-08 20:13:25,288 - INFO - Starting execution of script.ipynb
+2025-01-08 20:13:38,925 - INFO - Notebook execution completed in 0:00:13.631048
+2025-01-08 20:15:38,989 - INFO - Starting execution of script.ipynb
+2025-01-08 20:15:52,026 - INFO - Notebook execution completed in 0:00:13.034579
+2025-01-08 20:17:52,084 - INFO - Starting execution of script.ipynb
+2025-01-08 20:18:13,698 - INFO - Notebook execution completed in 0:00:21.605705
+2025-01-08 20:20:13,765 - INFO - Starting execution of script.ipynb
+2025-01-08 20:20:35,684 - INFO - Notebook execution completed in 0:00:21.914087
+2025-01-08 20:22:35,742 - INFO - Starting execution of script.ipynb
+2025-01-08 20:22:49,465 - INFO - Notebook execution completed in 0:00:13.718483
+2025-01-08 20:24:49,537 - INFO - Starting execution of script.ipynb
+2025-01-08 20:25:09,322 - INFO - Notebook execution completed in 0:00:19.774175
+2025-01-08 20:27:09,403 - INFO - Starting execution of script.ipynb
+2025-01-08 20:27:30,186 - INFO - Notebook execution completed in 0:00:20.778449
+2025-01-08 20:29:30,308 - INFO - Starting execution of script.ipynb
+2025-01-08 20:29:49,973 - INFO - Notebook execution completed in 0:00:19.657601
+2025-01-08 20:31:50,052 - INFO - Starting execution of script.ipynb
+2025-01-08 20:32:11,181 - INFO - Notebook execution completed in 0:00:21.120082
+2025-01-08 20:34:11,247 - INFO - Starting execution of script.ipynb
+2025-01-08 20:48:16,170 - ERROR - Timeout waiting for execute reply (600s).
+2025-01-08 20:48:18,808 - ERROR - Error executing notebook: A cell timed out while it was being executed, after 600 seconds.
+The message was: Cell execution timed out.
+Here is a preview of the cell contents:
+-------------------
+data, filename = fetch_top_5000_delegates()
+
+data = distribute_ACC_Power(data, filename)
+
+data = create_data_sheet(data, filename)
+
+file_date_str = os.path.splitext(filename)[0] 
+hhi, cpi = calculate_HHI_and_CPI(data, file_date_str)
+-------------------
+
+2025-01-08 20:50:18,859 - INFO - Starting execution of script.ipynb
+2025-01-08 20:50:32,179 - INFO - Notebook execution completed in 0:00:13.315634
+2025-01-08 21:05:12,157 - INFO - Starting execution of script.ipynb
+2025-01-08 21:05:29,904 - INFO - Notebook execution completed in 0:00:17.740444
+2025-01-08 21:07:29,962 - INFO - Starting execution of script.ipynb
+2025-01-08 21:07:43,595 - INFO - Notebook execution completed in 0:00:13.628271
+2025-01-08 21:52:43,017 - INFO - Starting execution of script.ipynb
+2025-01-09 10:01:58,354 - ERROR - Timeout waiting for execute reply (600s).
+2025-01-09 10:02:01,026 - ERROR - Error executing notebook: A cell timed out while it was being executed, after 600 seconds.
+The message was: Cell execution timed out.
+Here is a preview of the cell contents:
+-------------------
+data, filename = fetch_top_5000_delegates()
+
+data = distribute_ACC_Power(data, filename)
+
+data = create_data_sheet(data, filename)
+
+file_date_str = os.path.splitext(filename)[0] 
+hhi, cpi = calculate_HHI_and_CPI(data, file_date_str)
+-------------------
+
+2025-01-09 10:44:04,172 - INFO - Scheduler started. Notebook will execute every 2 minutes.
+2025-01-09 10:46:04,294 - INFO - Starting execution of script.ipynb
+2025-01-09 10:46:23,948 - INFO - Notebook execution completed in 0:00:19.645551
+2025-01-09 10:48:23,997 - INFO - Starting execution of script.ipynb
+2025-01-09 10:48:39,284 - INFO - Notebook execution completed in 0:00:15.283963
+2025-01-09 10:49:51,630 - INFO - Scheduler stopped by user
+2025-01-09 10:49:53,766 - INFO - Scheduler started. Notebook will execute every 5 minutes.
+2025-01-09 10:51:53,869 - INFO - Starting execution of script.ipynb
+2025-01-09 10:52:10,891 - INFO - Notebook execution completed in 0:00:17.016193
+2025-01-09 10:54:10,963 - INFO - Starting execution of script.ipynb
+2025-01-09 10:54:25,273 - INFO - Notebook execution completed in 0:00:14.299045
+2025-01-09 10:56:25,326 - INFO - Starting execution of script.ipynb
+2025-01-09 10:56:42,123 - INFO - Notebook execution completed in 0:00:16.790615
+2025-01-09 10:58:42,178 - INFO - Starting execution of script.ipynb
+2025-01-09 10:58:56,041 - INFO - Notebook execution completed in 0:00:13.858949
+2025-01-09 10:59:00,035 - INFO - Scheduler stopped by user
